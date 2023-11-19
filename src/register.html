@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <div class="max-w-sm mx-auto bg-slate-50 min-h-screen px-4">
+      <div class="flex justify-center pt-20">
+        <img src="img/logo.png" alt="" width="150" />
+      </div>
+      <div class="pt-10">
+        <h1 class="text-[26px] text-slate-800 font-medium">Selamat datang</h1>
+        <p class="text-sm text-slate-600">Silahkan Masuk dengan akun Amikom</p>
+      </div>
+      <form class="pt-10" action="">
+        <div class="mb-3">
+          <input
+            type="text"
+            id="nama"
+            class="bg-gray-50 border-2 border-gray-300 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
+            placeholder="Nama Mahasiswa"
+            required />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            id="nim"
+            class="bg-gray-50 border-2 border-gray-300 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
+            placeholder="Nomor Induk Mahasiswa"
+            required />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            id="email"
+            class="bg-gray-50 border-2 border-gray-300 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
+            placeholder="Email Mahasiswa"
+            required />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            id="password"
+            class="bg-gray-50 border-2 border-gray-300 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
+            placeholder="Password"
+            required />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password"
+            id="confirmPassword"
+            class="bg-gray-50 border-2 border-gray-300 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2"
+            placeholder="Confirm Password"
+            required />
+        </div>
+        <button
+          class="bg-[#4c17a7] text-white text-xs font-bold rounded-lg w-full py-4 uppercase">
+          Daftar
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
